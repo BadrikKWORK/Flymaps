@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/iconfonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flymaps</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header ">
+            <div class="header__container _container">
+                <div class="header__content _anim-items _anim-no-hide">
+                    <div class="header__column">
+                        <div class="header__item item-header">
+                            <div class="item-header__logo">
+                                <img src="image/header/1.png" alt="Логотип">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__column">
+                        <div class="header__item item-header">
+                            <nav class="item-header__menu menu-item-header">
+                                <ul class="menu-item-header__item">
+                                    <li>
+                                        <a href="#" class="">Сдать жильё</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="item-header__mobile-menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="item-header__phone">
+                                <div class="icon-phone"></div>
+                                <a href="tel:+88005339778" class="">8-800-533-97-78</a>
+                            </div>
+
+                            <a href="#popup" class="item-header__user icon-user popup-link">
+                              
+                            </a>
+                            <div class="popup-link__favorites icon-heart">
+                                <a href="#">Любимые</a> 
+                            </div>
+                            
+                            <div id="popup" class="popup">
+                                <div class="popup__body">
+                                    <div class="popup__content">
+                                        <div class="popup__close-cont">
+                                            <a href="#header" class="popup__close close-popup"></a>
+                                        </div>
+                                        <div class="popup__cont">
+                                            <div class="popup__column">
+                                                <div class="popup__item item-popup">
+                                                    <div class="item-popup__content">
+                                                        <div class="item-popup__quotes icon-login"></div>
+                                                        <div class="item-popup__top">
+                                                            <div class="item-popup__title">What is there more kindly than the feeling between host and guest?</div>
+                                                            <div class="item-popup__subtitle">Aeschylus</div>
+                                                        </div>
+                                                        <div class="item-popup__bottom">
+                                                            <div class="item-popup__data">12th Сентябрь 2022</div>
+                                                            <div class="item-popup__day">Понедельник!</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-popup__img">
+                                                        <img src="image/popap-header/1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="popup__column">
+                                                <div class="popup__item item-popup item-popup-two">
+                                                    <div class="item-popup-two__title">FlyMaps: жилье для отпуска, домики, дома на пляже</div>
+                                                    <div class="item-popup-two__cont cont-popup-two">
+                                                        <div class="cont-popup-two__column cont-popup-two__column-one active">Логин</div>
+                                                        <div class="cont-popup-two__column cont-popup-two__column-two">Регистрация</div>
+                                                    </div>
+                                                    <div class="item-popup-two__content content-popup-two-one">
+                                                        <div class="content-popup-two-one__column">
+                                                            <div class="content-popup-two-one__item content-popup-two-one__item-one active">
+                                                                <form action="#">
+                                                                    <div class="content-popup-two-one__one">
+                                                                        <label  class="content-popup-two-one__name">Имя пользователя</label>
+                                                                        <input autocomplete="off" type="tel"  placeholder="Имя пользователя" class="input phone">
+                                                                        <label  class="content-popup-two-one__forgot-password">Забыли пароль ?</label>
+                                                                    </div>
+                                                                    <div class="content-popup-two-one__two">
+                                                                        <label  class="content-popup-two-one__name">Пароль</label>
+                                                                        <input autocomplete="off" type="password"  placeholder="Пароль" class="input phone">
+                                                                        <button type="submit" class="form__btn btn">Логин</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="content-popup-two-one__item content-popup-two-one__item-two">
+                                                                <form action="#">
+                                                                    <div class="content-popup-two-one__one">
+                                                                        <label  class="content-popup-two-one__name">Имя пользователя</label>
+                                                                        <input autocomplete="off" type="tel"  placeholder="Имя пользователя" class="input phone">
+                              
+                                                                    </div>
+                                                                    <div class="content-popup-two-one__two">
+                                                                        <label  class="content-popup-two-one__name">Пароль</label>
+                                                                        <input autocomplete="off" type="password"  placeholder="Пароль" class="input phone">
+                                                                        <button type="submit" class="form__btn btn">Логин</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="content-popup-two-one__item content-popup-two-one__item-three">
+                                                                <form action="#">
+                                                                    <div class="content-popup-two-one__one">
+                                                                        <input autocomplete="off" type="password"  placeholder="Имя пользователя или пароль" class="input phone">
+                                                                    </div>
+                                                                    <div class="content-popup-two-one__two">
+                                                                        <button type="submit" class="form__btn btn">Сбросить пароль</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <a class="back_to_top" title="Наверх">	
+                &#9650</a>
+            <section>
+                <div class="fullscreen">
+                    <div class="fullscreen__content">
+                        <div class="fullscreen__form">
+                            <form action="#"></form>
+                        </div>
+                    </div>
+                    <div class="fullscreen__fon">
+                        <img src="image/1_section/1.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="categories-section">
+                    <div class="categories-section__container _container">
+                        <div class="categories-section__content">
+                            <div class="categories-section__item item-categories-section ">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/1.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="categories-section__item item-categories-section">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="categories-section__item item-categories-section">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="categories-section__item item-categories-section">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="categories-section__item item-categories-section">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="categories-section__item item-categories-section">
+                                <div class="item-categories-section__content">
+                                    <div class="item-categories-section__city">Сочи</div>
+                                    <div class="item-categories-section__bottom">
+                                        <div class="item-categories-section__call _anim-items _anim-no-hide">206</div>
+                                        <div class="item-categories-section__text _anim-items _anim-no-hide">Размещено проектов</div>
+                                    </div>
+                                </div>
+                                <div class="item-categories-section__fon">
+                                    <img src="image/2_section/1.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="categories-two section">
+                    <div class="categories-two__container _container">
+                        <div class="categories-two__content">
+                            <div class="categories-two__name name _anim-items _anim-no-hide">Категории</div>
+                            <div class="categories-two__title title _anim-items _anim-no-hide"><h2>Категории недвижимости</h2></div>
+                            <div class="categories-two__subtitle subtitle _anim-items _anim-no-hide">Выберите категорию жилья по вашему вкусу</div>
+                            <div class="categories-two__cont">
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories-two__column">
+                                    <div class="categories-two__item item-categories-two">
+                                        <div class="item-categories-two__content">
+                                            <div class="item-categories-two__title">Отели</div>
+                                        </div>
+                                        <div class="item-categories-two__fon">
+                                            <img src="image/3_section/1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="post">
+                    <div class="post__container _container">
+                        <div class="post__content">
+                            <div class="post__name name _anim-items _anim-no-hide">Категории</div>
+                            <div class="post__title title _anim-items _anim-no-hide"><h2>Категории недвижимости</h2></div>
+                            <div class="post__subtitle subtitle _anim-items _anim-no-hide">Выберите категорию жилья по вашему вкусу</div>
+                            <div class="post__cont cont-post">
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class="icon-fotic">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#popupFilm" class="popup-link">
+                                                    <div  class=" top-cont-post__top-video">
+                                                
+                                                        <span class=" icon-film">3</span>
+                                                    </div>
+                                                </a>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg_2">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="popupFilm" class="popup">
+                                        <div class="popup__body">
+                                            <div class="popup__content">
+                                                <div class="popup__close-cont">
+                                                    <a href="#header" class="popup__close close-popup"></a>
+                                                </div>
+                                                <div class="popup__cont">
+                                                    <video src="#"></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery2" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery3">
+                                                    <ul id="lightgallery" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery4" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery5" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery9" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post__pagi">
+                                <p class="active">
+                                    1
+                                </p>
+                                <p>
+                                    1
+                                </p>
+                                <p>
+                                    1
+                                </p>
+                                <p>
+                                    1
+                                </p>
+                                <p>
+                                    >
+                                </p>
+                                <p>
+                                    >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="post-global">
+                    <div class="post-global__container">
+                        <div class="post__content">
+                            <div class="post__name name _anim-items _anim-no-hide">Категории</div>
+                            <div class="post__title title _anim-items _anim-no-hide"><h2>Категории недвижимости</h2></div>
+                            <div class="post__subtitle subtitle _anim-items _anim-no-hide">Выберите категорию жилья по вашему вкусу</div>
+                            <div class="post__cont cont-post">
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery6" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery7" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-post__column">
+                                    <div class="cont-post__item item-cont-post">
+                                        <div class="item-cont-post__top top-cont-post">
+                                            <div class="top-cont-post__content">
+                                                <div class="demo-gallery">
+                                                    <ul id="lightgallery8" class="list-unstyled row">
+                                                        <div data-responsive="" data-src="image/gallery/1.webp" class="top-cont-post__top">
+                                                            <span class=" icon-film">3</span>
+                                                        </div>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                        <li  data-responsive="" data-src="image/gallery/1.webp">
+                                                            <a href="">
+                                                                <img class="img-responsive" src="image/gallery/1.webp" alt="Thumb-1">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-cont-post__middle"><span class="icon-star"></span></div>
+                                                <div class="top-cont-post__bottom">Отели</div>
+                                            </div>
+                                            <div class="top-cont-post__fon">
+                                                <img src="image/4_section/1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item-cont-post__bottom bottom-cont-post">
+                                            <div class="bottom-cont-post__title">
+                                                <a href="#">Vnukovo Village 4* ЧЕТЫРЕХМЕСТНЫЙ ЛЮКС (7 КОРПУС)</a></div>
+                                            <div class="bottom-cont-post__link"><a href="#popup2" class="popup-link">Киевская улица, 4 деревня Внуково, поселение Внуковское, Москва</a></div>                       
+                                            <div id="popup2" class="popup">
+                                                <div class="popup__body">
+                                                    <div class="popup__content">
+                                                        <div class="popup__close-cont">
+                                                            <a href="#header" class="popup__close close-popup"></a>
+                                                        </div>
+                                                        <div class="popup__cont">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71368.43101273225!2d37.77854460300155!3d56.01410961695924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52f2bd66e531b%3A0x7ab21abc2a0f50e4!2z0J_Rg9GI0LrQuNC90L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1663080230494!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__date">
+                                                Добавлено: 7 августа, 2022
+                                            </div>
+                                            <div class="bottom-cont-post__categories categories-cont-post">
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                                <div class="categories-cont-post__item">
+                                                    Спальни
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__characteristic characteristic-cont-post">
+                                                <div class="characteristic-cont-post__item icon-rh_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-rh_svg_2">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item icon-sr_svg">
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                                <div class="characteristic-cont-post__item ">
+                                                    <div class="icon-cvas">
+                                                    </div>
+                                                    <p>3</p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__prise-and-faver prise-and-faver-post">
+                                                <div class="prise-and-faver-post__prise">От ₽8,490 Ночь</div>
+                                                <div class="prise-and-faver-post__faverit">
+                                                    <div class="prise-and-faver-post__fav icon-heart"></div>
+                                                    <div class="prise-and-faver-post__fav__text">Добавить в избранное</div>
+                                                    <div class="prise-and-faver-post__comparison icon-sr_svg_3"></div>
+                                                    <div class="prise-and-faver-post__fav__comparison">Добавить для сравнен..</div>
+                                                </div>
+                                            </div>
+                                            <div class="bottom-cont-post__agent">
+                                                <div class="bottom-cont-post__agen">Агент</div>
+                                                <div class="bottom-cont-post__addres">Vnukovo Village 4*</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="great-places">
+                        <div class="great-places__content">
+                            <div class="great-places__container">
+                                <div class="great-places__title"><h2>Найдите отличные места для проживания в ваших любимых местах</h2></div>
+                                <div class="great-places__subtitle">Наша команда предлагает комфорт с удобствами мирового класса для путешественников по всему миру. Найдите лучшее место для проживания рядом с вашим любимым местом и получите выгодное предложение.</div>
+                                <div class="great-places__btn">
+                                    <a href="#" class="btn">Посмотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="great-places__fon">
+                            <img src="image/5_section/1.jpg" alt="">
+                        </div>
+                   
+                </div>
+            </section>
+            <section>
+           
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer__container _container">
+                    <div class="footer__content">
+                        <ul class="footer__items">
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__items">
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__items">
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                            <li>
+                                <a href="#">О Flymps</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__copy">
+                        © 2022. Все права защищены.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="js/lg-rotate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+        lightGallery(document.getElementById('lightgallery2'));
+        lightGallery(document.getElementById('lightgallery3'));
+        lightGallery(document.getElementById('lightgallery4'));
+        lightGallery(document.getElementById('lightgallery5'));
+        lightGallery(document.getElementById('lightgallery6'));
+        lightGallery(document.getElementById('lightgallery7'));
+        lightGallery(document.getElementById('lightgallery8'));
+        lightGallery(document.getElementById('lightgallery9'));
+    </script>
+</body>
+</html>
